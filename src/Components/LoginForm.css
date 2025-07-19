@@ -1,0 +1,30 @@
+.login-container {
+  background-color: aliceblue;
+  padding: 24px 40px 40px 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
